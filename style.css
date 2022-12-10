@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+  width: 80%;
+  /* background: rgba(0, 0, 0, 0.5); */
+}
+.main header h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.main .input-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.main .input-label .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 350px;
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 15px;
+  border-radius: 10px;
+  border: 1px solid #57bbd5;
+}
+.main #check-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  background: #57bbd5;
+  height: 40px;
+  width: 90px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #57bbd5;
+}
+.output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: black;
+  margin: 30px;
+  font-size: 1.3rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60px;
+  width: 100%;
+  color: #fff;
+  background: #57bbd5;
+}
+.social-media {
+  display: flex;
+}
+.social-media li,
+a {
+  list-style: none;
+  text-decoration: none;
+  margin: 10px;
+  color: #fff;
+}
